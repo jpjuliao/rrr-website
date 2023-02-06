@@ -2,8 +2,13 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+body {
+  background-color: rgba(#EBE4D4, .08);
+}
+
 h1 {
   @apply text-6xl font-bold mb-2;
+  color: #7F9D01;
 }
 
 h2 {
